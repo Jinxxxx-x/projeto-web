@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hachi+Maru+Pop&family=Montserrat&family=Quicksand:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background: linear-gradient(50deg, #6aa6e2,#4599ee, #20B2AA);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+  }
+
+h1{
+   position: absolute;
+   left: 2%;
+   top: 1%;
+   margin-left: 500px;
+   color: aliceblue;
+   font-family: 'Great Vibes', cursive;
+   font-size: 3rem;
+   font-weight: 500;
+   text-align: center;
+}
+div#icon img{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*#nav ul li{
+        width: 30%;
+		margin: 8; padding: 0;
+		float: left;
+}*/
+    .img{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    padding: 4rem;
+    border: none;
+    display: flex;
+    text-align: center;     
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main ul {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    
+  }
+  main ul li{
+    position: relative;
+  }
+  main li ul{
+    position:absolute;
+    left: 149px;
+    top: 0;
+    display: none;
+  }
+  main ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    background: #20B2AA;  
+    padding: 6px;
+    border: 1px solid #ccc; 
+  }
+
+  /* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+li:hover ul { display: block; }
+
+.button input{
+    font-family: 'Montserrat', sans-serif;
+          color: white;
+          background-color: #478bcf;
+          padding: 5px;
+          border: 1px solid #ccc;
+          margin-bottom: 5px;
+          margin-left: 620px;
+          margin-top: 1rem;
+          width: 20%;
+          cursor: pointer;
+          border: none;
+          border-radius: 32px;
+          font-size: 1.1rem;
+          transition: all .3s ease-in-out;
+  }
+  .button input[type= "button"]:hover{
+      background: #3f80c2;
+  }
+
+.images{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: -2;
+}
+div.rectangle{
+     width:30px;
+     height:30px;
+     border: 25px solid; 
+      border-color:lightseagreen;
+      position: absolute;
+}
